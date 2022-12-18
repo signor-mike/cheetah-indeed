@@ -1,0 +1,16 @@
+{
+    "name": "cheetah-indeed",
+    "version": "0.0.1-beta",
+    "description": "helps to apply for jobs on indeed.com fully automated for 1-step applications, assisted applications with more than 1 step",
+    "main": "./main.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node main.js"
+    },
+    "author": "Mike K.",
+    "license": "MIT",
+    "dependencies": {
+        "selenium-webdriver": "^4.6.1"
+    }
+}
