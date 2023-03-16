@@ -20,7 +20,7 @@ const manualApply = async (driver, job) => {
     try {
         await driver.switchTo().newWindow("tab");
         await driver.get(job);
-        await waitFor("h1.jobsearch-JobInfoHeader-title");
+        await waitFor("div.jobsearch-JobInfoHeader-title-container");
         let isAvailable = await driver.findElements(
             By.css("span.indeed-apply-status-not-applied")
         );

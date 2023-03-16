@@ -20,7 +20,9 @@ const apply = async (job) => {
         }
         await job.click();
         await driver.wait(
-            until.elementLocated(By.css("h1.jobsearch-JobInfoHeader-title")),
+            until.elementLocated(
+                By.css("div.jobsearch-JobInfoHeader-title-container")
+            ),
             15000
         );
         let isAvailable = await driver.findElements(

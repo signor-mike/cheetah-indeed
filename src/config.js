@@ -6,7 +6,7 @@ const config = {
     // job details
     jobDetails: {
         // job title
-        title: "vuejs developer",
+        title: "frontend developer",
         // location, exactly as on indeed.
         location: "remote",
     },
